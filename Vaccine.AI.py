@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
 
-from keras.models import load_model
+from tensoflow.keras.models import load_model
 
 st.set_page_config(page_title="Vaccine.AI", page_icon="icon.png")
 status=st.sidebar.radio('',('Home',"Safety Measures"))
